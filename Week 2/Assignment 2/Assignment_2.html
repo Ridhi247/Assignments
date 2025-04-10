@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_2</title>
+</head>
+<body>
+    <script>
+
+// Task 1: Declare a variable age and determine if it's adult
+
+let age = 22;
+let isAdult = age >= 18;
+document.write("Is adult: " + isAdult + "<br>");
+
+// Task 2: Perform operations on x and y
+
+let x = 10, y = 5;
+let addition = x + y;
+let multiplication = x * y;
+let modulus = x % y;
+
+document.write("Addition: " + addition + "<br>");
+document.write("Multiplication: " + multiplication + "<br>");
+document.write("Modulus: " + modulus + "<br>");
+
+// Task 3: Check if a number is even or odd using if-else
+
+let n = 9;
+let result;
+
+if (n % 2 === 0) {
+    result = "Even";
+} else {
+    result = "Odd";
+}
+document.write("Number " + n + " is: " + result + "<br>");
+
+// Task 4: Store numbers 1 to 5 in an array using a loop
+
+let numbers = [];
+for (let i = 1; i <= 5; i++) {
+    numbers.push(i);
+}
+document.write("Numbers array: " + numbers.join(", ") + "<br>");
+
+// Task 5: Function to return the square of a number
+
+function square(num) {
+    return num * num;
+}
+
+document.write("Square of 4: " + square(4) + "<br>"); // Example usage
+
+    </script>
+</body>
+</html>

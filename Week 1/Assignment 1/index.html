@@ -1,0 +1,103 @@
+<!--This code contains internal CSS Styling -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Notre-Dame de Paris</title>
+    <!--CSS Styling-->
+    <style>
+        body{
+            background-color: gray;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .Image{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        figcaption{
+            text-align: center;
+        }
+        p{
+            margin-left: 10%;
+            margin-right: 10%;
+            line-height: 1;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        button{
+            background-color:white ;
+            border: none;
+            color:black;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            font-size: 16px;
+            margin-left: auto;
+            margin-right: auto;
+            transition-duration: 0.4s;
+            cursor: pointer;
+
+        }
+        .b1{
+            background-color: white; 
+            color: black; 
+            border: 2px solid black;
+        }
+        .b1:hover {
+            background-color: black;
+            color: white;
+        }
+        form{
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!--Main Heading-->
+    <h1>Notre-Dame de Paris</h1>
+    <!--Image and caption of Notre-Dame de-->
+    <figure >
+        <img src="./Images/notre_dame.jpg" alt="Photo of Notre-dame de Paris" class="Image">
+        <figcaption><em> <strong>A beautiful photo of Notre-Dame de Paris at night.</strong> </em></figcaption>
+    </figure>
+    <!--The two paragraphs-->
+    <p>Notre-Dame de Paris, also known as Notre-Dame Cathedral or simply Notre-Dame, is a medieval Catholic cathedral on the Île de la Cité in the fourth arrondissement of Paris, France. The cathedral is widely considered to be one of the finest examples of French Gothic architecture, and it is among the largest and best-known church buildings in the Catholic Church in France, and in the world. The naturalism of its sculptures and stained glass serve to contrast it with earlier Romanesque architecture.</p>
+    <p>As the cathedral of the Archdiocese of Paris, Notre-Dame contains the cathedra of the Archbishop of Paris, currently Cardinal André Vingt-Trois. The cathedral treasury contains a reliquary, which houses some of Catholicism's most important relics, including the purported Crown of Thorns, a fragment of the True Cross, and one of the Holy Nails.</p>
+    <h3>Features of Notre-Dame de Paris</h3>
+    <!--Table with three columns and rows-->
+    <table border="4">
+        <tr >
+            <th>Built between</th>
+            <th>Relics held</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>1163</td>
+            <td>Crown of Thorns</th>
+            <td>Cathedral</th>
+        </tr>
+        <tr>
+            <td>1260</td>
+            <td>Silver of True Cross</td>
+            <td>Minor Basilica</td>
+        </tr>
+    </table>
+    <br>
+    <!--Styled button with hover effect-->
+    <button class="b1"><h2>Visit Notre-Dame de Paris</h2></button>
+    <br>
+    <!--Form with two entries and a submit button-->
+    <form>
+        <label for="name">Full Name</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="MNO">Mobile Number</label><br>
+        <input type="number" name="MNO" id="MNO"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
